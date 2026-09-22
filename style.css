@@ -225,10 +225,40 @@ main{
     flex-wrap:nowrap;
     gap: 15px;
     padding: 20px;
-   
-    
-    
+     
 }
+
+.section2{
+    height: 140px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.sign-in{
+    text-align: center;
+    padding: 5px;
+}
+.sign-in button{
+    
+    height: 30px;
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #ffd814;
+    color: black;
+    font-size: 16px;
+}
+.sign-in p{
+    padding-top: 4px;
+}
+
+
 
 .parent{
     background-color: white;
